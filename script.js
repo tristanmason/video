@@ -57,7 +57,8 @@ var appendThumb = (function(e) {
           // split url of large thumbnail at 640
           thumbSplit = thumbSRClarge.split(/\d{3}(?=.jpg)/);
           // add 1280x720 to parts and get bigger thumbnail
-          thumbSRC = thumbSplit[0] + '1280x720' + thumbSplit[1];
+          // TM@C change to 1920x1080
+          thumbSRC = thumbSplit[0] + '1920x1080' + thumbSplit[1];
           thumbIMG.src = thumbSRC;
           thumbLINK.href = thumbSRC;
         } else {
