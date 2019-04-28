@@ -96,7 +96,9 @@ input[type="url"]:focus {
 }
 
 .btn:hover,
-.btn:focus {
+.btn:focus,
+a.download.btn:hover,
+a.download.btn:focus {
   border-color: rgb(153,0,0);
   background-color: rgb(153,0,0);
   color: rgb(255,255,255);
