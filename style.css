@@ -85,7 +85,7 @@ input[type="url"]:focus {
   color: rgb(229,23,23);
 }
 
-.btn {
+.btn, a.download.btn {
   background-color: rgb(229,23,23);
   border: 1px solid rgb(229,23,23);
   color: rgb(247,247,247);
